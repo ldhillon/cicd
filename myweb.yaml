@@ -22,7 +22,7 @@ spec:
         app: myweb
     spec:
       containers:
-      - image: registry-server.lsd.com:5000/myweb:2
+      - image: registry-server.lsd.com:5000/myweb:3
         imagePullPolicy: Always
         name: myweb
         terminationMessagePath: /dev/termination-log
