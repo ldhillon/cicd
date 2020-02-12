@@ -6,7 +6,7 @@ metadata:
   name: myweb
 spec:
   progressDeadlineSeconds: 2147483647
-  replicas: 2
+  replicas: 1
   revisionHistoryLimit: 2147483647
   selector:
     matchLabels:
@@ -22,7 +22,7 @@ spec:
         app: myweb
     spec:
       containers:
-      - image: registry-server.lsd.com:5000/myweb:4
+      - image: registry-server.lsd.com:5000/myweb:5
         imagePullPolicy: Always
         name: myweb
         terminationMessagePath: /dev/termination-log
