@@ -6,7 +6,7 @@ metadata:
   name: myweb
 spec:
   progressDeadlineSeconds: 2147483647
-  replicas: 1
+  replicas: 2
   revisionHistoryLimit: 2147483647
   selector:
     matchLabels:
