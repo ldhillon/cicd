@@ -1,7 +1,7 @@
 pipeline {
 
   environment {
-    registry = "registry-server.lsd.com:5000/justme/myweb"
+    registry = "registry-server.lsd.com:5000//myweb"
     dockerImage = ""
   }
 
@@ -11,7 +11,7 @@ pipeline {
 
     stage('Checkout Source') {
       steps {
-        git 'https://github.com/ldhillon/lsdjenkins.git'
+        git 'https://github.com/ldhillon/cicd.git'
       }
     }
 
