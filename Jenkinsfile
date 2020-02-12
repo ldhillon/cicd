@@ -11,7 +11,7 @@ pipeline {
 
     stage('Checkout Source') {
       steps {
-        git 'git@github.com:ldhillon/cicd.git'
+        git 'https://github.com/ldhillon/cicd.git'
       }
     }
 
